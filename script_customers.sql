@@ -31,3 +31,5 @@ values ('Владислав', 'Грачев', 34, '9857852679');
 insert into homework2.CUSTOMERS(name, surname, age, phone_number)
 values ('Игорь', 'Козлов', 28, '9857851256');
 
+
+
