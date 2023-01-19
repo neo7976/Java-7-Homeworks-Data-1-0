@@ -13,8 +13,8 @@ import java.util.HashMap;
 @SpringBootApplication
 public class CommandLineApp implements CommandLineRunner {
 
-    @Autowired
-    private JdbcTemplate jdbcTemplate;
+//    @Autowired
+//    private JdbcTemplate jdbcTemplate;
 
     @Autowired
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
