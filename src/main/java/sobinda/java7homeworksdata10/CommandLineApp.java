@@ -37,6 +37,13 @@ public class CommandLineApp implements CommandLineRunner {
                 arguments,
                 (rs, rowNum) -> new Car(rs.getInt("id"), rs.getString("name")));
         System.out.println(result);
+
+        var newArguments = new HashMap<String, String>();
+        newArguments.put("name", "Пыжик");
+//        newArguments.put("id", "4");
+
+       var newResult =  namedParameterJdbcTemplate.update("insert into netology.cars (name) values(:name)",
+                newArguments);
     }
 
     static class Car {

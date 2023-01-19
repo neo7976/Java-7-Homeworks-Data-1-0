@@ -78,6 +78,13 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
             <version>3.0.1</version>
         </dependency>
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.liquibase/liquibase-core &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.liquibase</groupId>-->
+<!--            <artifactId>liquibase-core</artifactId>-->
+<!--            <version>4.19.0</version>-->
+<!--        </dependency>-->
+
 
     </dependencies>
 
